@@ -4,6 +4,9 @@ trigger:
 resources:
 - repo: self
 
+pool:
+  name: azpool-sf
+
 variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: 'a9610e05-1b2c-49a3-8be8-7eb19c827bdb'
