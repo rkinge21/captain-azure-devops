@@ -6,7 +6,7 @@ resources:
 
 pool:
   name: azpool-sf
-  vmImage: 'ubuntu'
+  # vmImage: 'ubuntu'
 
 variables:
   # Container registry service connection established during pipeline creation
